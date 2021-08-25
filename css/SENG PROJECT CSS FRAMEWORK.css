@@ -2,12 +2,12 @@
 /*by default*/
 body{
     background-color: white;
-    font: 1em sans-serif;
     color: #000;
     letter-spacing: normal;
     line-height: 1.5px;
     text-align: justify;
     margin: 0;
+    font: 2em sans-serif;
 
 }
 
@@ -22,7 +22,7 @@ text-align: center;
 /*default paragraphs*/
 p{
 font: 1em sans-serif;
-margin: 5px;
+margin: 50px;
 }
 
 aside{
@@ -34,7 +34,9 @@ margin: 0;
 font: 1em sans-serif;
 }
 
-
+li{
+    margin: 50px;
+}
 
 
 
@@ -151,7 +153,7 @@ nav{
 
 
  }
- ul li{
+ nav ul li{
      display:inline-block;
      margin: 2%;
  }
@@ -159,7 +161,7 @@ nav{
     text-decoration: none;
     color: black;
 }
-    li:hover{
+    li a:hover{
         background-color: red;
         
 .icons{
