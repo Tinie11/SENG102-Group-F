@@ -1,11 +1,3 @@
-*{
- margin: ;
- padding: ;
- box-sizing: border-box;
- overflow: auto; 
- 
-} 
-
 
 /*by default*/
 body{
@@ -17,23 +9,26 @@ body{
     text-align: justify;
     margin: 0;
 
- }
+}
 
 /*styling headings*/
 h1,h2,h3,h4,h5,h6{
-margin: 10px;
+margin: 50px;
 font-weight: 400;  
-font-style: italic;
- 
- }
+font-style: bold ;
+text-align: center;
+}
 
+/*default paragraphs*/
 p{
-     font-style: normal;
-     margin: 5px;
- }
+font: 1em sans-serif;
+margin: 5px;
+}
+
 aside{
-    font-style: oblique;
- }
+font-style: oblique;
+}
+
 ul,ol,dl{
 margin: 0;
 font: 1em sans-serif;
@@ -52,60 +47,25 @@ font: 1em sans-serif;
 
 
 
-
-
-
-/*styling nav bars*/
-.nav1{
-    background-color: aqua; 
-    color: black;
-    height: 75px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
-    border-radius: 5px;
-
-}
-ul li{
-     display:inline-block;
-     margin: 2%;
-}
-li a{
-    text-decoration: none;
-    color: black;
-}
-li:hover{
-        background-color: blanchedalmond;
-        
-    
-}
-
-
-
-ol{
-
-}
-ul{
-
-}
-li{
-
-}
 hr .one{
 border-top: 5000px aqua;
 }
 
 
 
-h1, h2, h3, h4. h5,h6{
 
-}
 /*fieldset and legends*/
-}
+
 fieldset{
     background-color: gray;
     max-width: 500px;
     padding: 16px;
+    border-color: red;
 
+}
+legend{
+    margin-top: 0px;
+    margin-left: 16px;
 }
 /*footers*/
 footer{
@@ -120,7 +80,89 @@ table{
 
 .logo{
        float: left; 
-       width: 100px; 
+       width: 70px; 
        height: 70px;
 }
 
+/*styling buttons*/
+a.button1{
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    color: aliceblue;
+    text-shadow: blue;
+    text-align: center;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+a.button1:hover{
+    border-color: cornsilk;
+}
+
+/* nav bar */
+/*.box1{
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    height: 50px;
+    position: sticky;
+    
+}
+
+ul{
+    float: right;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: block;
+
+}
+
+ul li{
+    margin-top: -10px;
+    float: left;
+    position: relative;
+    width: 98px;
+    font-size: 14px;
+    list-style-type: none;
+    font-family: barlow condensed, sans-serif;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    
+}
+li:hover{
+    background-color: red;
+    border-radius: 5px;
+}*/
+
+nav{
+    background-color: gainsboro; 
+    color: black;
+    height: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    border-radius: 5px;
+
+
+ }
+ ul li{
+     display:inline-block;
+     margin: 2%;
+ }
+ li a{
+    text-decoration: none;
+    color: black;
+}
+    li:hover{
+        background-color: red;
+        
+.icons{
+    float: right;
+    align-items: right;
+}
