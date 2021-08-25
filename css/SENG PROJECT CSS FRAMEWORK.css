@@ -162,9 +162,74 @@ nav{
     color: black;
 }
     li a:hover{
-        background-color: red;
+        background-color: red;}
         
 .icons{
     float: right;
     align-items: right;
 }
+.codespace{
+    font: 12px arial, helvetica, sans-serif;
+    width: 1500px;
+    height: 200px;
+    background-color: gainsboro;
+    border: 5px solid rgba(0,0,0,0.3);
+    overflow: scroll;
+    overflow-style: marquee-block;
+    float: center ;
+    }
+.hr0{
+       width:100%;
+        height: 3px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: red;
+}
+.hr1 {
+    border: 0;
+    height: 3px;
+    background: #095484;
+    background-image: linear-gradient(to right, #ccc, #095484, #ccc);
+  }
+  .hr2 {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(9, 84, 132), rgba(0, 0, 0, 0));
+  }
+  .hr3 {
+    height: 15px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(9, 84, 132);
+  }
+  .hr4 {
+    border-top: 3px double #095484;
+  }
+  .hr5 {
+    background-color: #fff;
+    border-top: 2px dashed #095484;
+  }
+  .hr6 {
+    border-top: 3px dotted #095484;
+  }
+  .hr7 {
+    height: 30px;
+    border-style: solid;
+    border-color: #095484;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+  }
+  .hr8 {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #095484;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+  }
+  .code{
+      background-color: grey;
+      height: 50px;
+      width: 1200px;
+  }
