@@ -150,6 +150,8 @@ nav{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
     border-radius: 5px;
+    position: sticky;
+    position: -webkit-sticky;
 
 
  }
@@ -178,47 +180,46 @@ nav{
     overflow-style: marquee-block;
     float: center ;
     }
-.hr0{
-       width:100%;
-        height: 3px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: red;
+.hr1{
+    width:50%;
+    height: 3px;
+    background-color: red;
+    margin: none;
 }
-.hr1 {
+.hr2{
     border: 0;
     height: 3px;
     background: #095484;
     background-image: linear-gradient(to right, #ccc, #095484, #ccc);
   }
-  .hr2 {
+  .hr3{
     border: 0;
     height: 3px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(9, 84, 132), rgba(0, 0, 0, 0));
   }
-  .hr3 {
+  .hr4{
     height: 15px;
     border: 0;
     box-shadow: inset 0 12px 12px -12px rgba(9, 84, 132);
   }
-  .hr4 {
+  .hr5{
     border-top: 3px double #095484;
   }
-  .hr5 {
+  .hr6{
     background-color: #fff;
     border-top: 2px dashed #095484;
   }
-  .hr6 {
+  .hr7 {
     border-top: 3px dotted #095484;
   }
-  .hr7 {
+  .hr8{
     height: 30px;
     border-style: solid;
     border-color: #095484;
     border-width: 1px 0 0 0;
     border-radius: 20px;
   }
-  .hr8 {
+  .hr9 {
     display: block;
     content: "";
     height: 30px;
@@ -228,8 +229,12 @@ nav{
     border-width: 0 0 1px 0;
     border-radius: 20px;
   }
-  .code{
-      background-color: grey;
+  .codespace2{
+      border: 5px solid gray;
       height: 50px;
-      width: 1200px;
+      float: center;
+      text-align: center;
+      margin: auto;
+      width: 60%;
+      padding: 10px;
   }
