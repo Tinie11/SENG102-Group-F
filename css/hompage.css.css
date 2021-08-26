@@ -1,0 +1,246 @@
+.boxl{
+    border: 1px solid black;
+    background-color: black;
+    height: 30px;
+}
+
+ul{
+    float: left;
+    color: white;
+}
+
+ul li{
+    margin-top: -10px;
+    float: left;
+    position: relative;
+    left: 300%;
+    width: 110px;
+    font-size: 14px;
+    font-family: barlow condensed,sans-serif;
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    position: relative;
+    color:white;
+}
+
+h5{
+    margin-top: 1px;
+    word-spacing: 6px;
+    color: white;
+    margin: 7px 12px;
+    position: relative;
+    left: -18%;
+    font-family: barlow condensed,sans-serif;
+    height: -10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 575;
+}
+
+.navbar{
+    border: 1px solid transparent;
+    background-color: whitesmoke;
+    height: 50px;
+}
+
+ol{
+    float: left;
+}
+ol li{
+    float: left;
+    width: 98px;
+    position: relative;
+    left: 65%;
+    list-style-type: none;
+    font-family: barlow condensed,sans-serif;
+    font-size: 18px;
+    font-stretch: narrower;
+}
+ol li a{
+    text-decoration: none;
+    color: black;
+}
+
+ol li a:hover{
+    border-bottom: 4px solid red;
+}
+
+.fa-search{
+    position: absolute;
+    left: 86.5%;
+    top: 9%;
+    color: black;
+}
+
+.fa-user{
+    position: absolute;
+    left: 90.5%;
+    top: 9%;
+    color: black;
+}
+.fa-book{
+    position: absolute;
+    left: 94.5%;
+    top: 9%;
+    color: black;
+    width: 25px;
+    height: -30px;
+    border-radius: 100px;
+    background-color: grey;
+    margin-top: -2px;
+    margin-left: -4px;
+    text-align: left;
+}
+
+h3{
+    color: red;
+    position:absolute;
+    left: 95.3%;
+    top:4%;
+    width: 18px;
+    height: -40px;
+    border-radius: 100px;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
+h2{
+    position: relative;
+    left: -50.2%;
+    font-family: barlow condensed,sans-serif;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+font{
+    color: red;
+}
+.cover img src{
+    background-size: contain;
+    height: 530px;
+    width: 1328px;
+}
+.text{
+    position: absolute;
+    top: 30%;
+    left: 7%;
+}
+h1{
+    font-size: 70px;
+    font-family: barlow condensed,sans-serif;
+    text-transform: capitalize;
+    width: 460px;
+    word-spacing: 0px;
+    font-weight: normal;
+    line-height: 72px;
+    color: black;
+}
+
+h4{
+    position: absolute;
+    top: -4%;
+    font-size: 20px;
+    font-family: barlow condensed,sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: black;
+}
+
+form input[type="Submit"]{
+    position: absolute;
+    top: 86%;
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: red;
+    border: none;
+    color: white;
+    font-family: barlow condensed,sans-serif;
+    letter-spacing: 1px;
+}
+
+form input[type="Submit"]:hover{
+    background-color: crimson;
+}
+
+.image22{
+    position: absolute;
+    left: 4%;
+    top: 100%;
+    border: 1px solid black;
+    box-shadow: 1px 2px 4px;
+}
+h6{
+    color: black;
+    position: absolute;
+    left: 18%;
+    top: 0%;
+    border: 1px solid whitesmoke;
+    width: 200px;
+    font-size: 40px;
+    font-family: barlow condensed,sans-serif;
+    background-color: white;
+    font-weight: normal;
+    text-align: center;
+}
+.image22:hover{
+    box-shadow: 1px 3px 9px;
+    color: blueviolet;
+}
+
+.image23{
+    position: absolute;
+    left: 34%;
+    top: 100%;
+    border: 1px solid black;
+    box-shadow: 1px 2px 4px;
+}
+
+.image23:hover{
+    box-shadow: 1px 3px 9px;
+    color: blueviolet;
+}
+
+h{
+    color: black;
+    position: absolute;
+    left: 18%;
+    top: 55%;
+    border: 1px solid whitesmoke;
+    width: 200px;
+    font-size: 40px;
+    font-family: barlow condensed,sans-serif;
+    background-color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+.image24{
+    position: absolute;
+    left: 64%;
+    top: 100%;
+    border: 1px solid black;
+    box-shadow: 1px 2px 4px;
+}
+
+.image24:hover{
+    box-shadow: 1px 3px 9px;
+    color: blueviolet;   
+}
+
+t{
+    color: black;
+    position: absolute;
+    left: 18%;
+    top: 55%;
+    border: 1px solid whitesmoke;
+    width: 200px;
+    font-size: 40px;
+    font-family: barlow condensed,sans-serif;
+    background-color: white;
+    font-weight: normal;
+    text-align: center;  
+}
+
