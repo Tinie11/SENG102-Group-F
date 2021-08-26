@@ -38,24 +38,6 @@ li{
     margin: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-hr .one{
-border-top: 5000px aqua;
-}
-
-
-
-
 /*fieldset and legends*/
 
 fieldset{
@@ -73,9 +55,7 @@ legend{
 footer{
 
 }
-form{
 
-}
 table{
     font: sans-serif;
 }
